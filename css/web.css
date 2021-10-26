@@ -1,0 +1,126 @@
+html {
+  background-image: url("../img/pizza.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+header{
+  background-color: darkorange;
+  color: black;
+  padding: 10px;
+  margin-top: 10px;
+  border: 10px;
+  height: 100px;
+  width: 920px;
+}
+
+nav {
+  background-color: darkorange;
+  padding: 10px;
+  margin-left: 0;
+  margin-top: 10px;
+  height: 400px;
+  width: 200px;
+}
+
+section {
+  background-color: darkorange;
+  padding: 10px;
+  margin-left: 230px;
+  margin-top: -420px;
+  height: 400px;
+  width:460px;
+}
+
+
+article {
+  background-color: orange;
+  position: relative;
+  border: red;
+  text-align: right;
+}
+
+article.art1 {
+  text-align: left;
+}
+
+p1 {
+  background-color: black;
+  color: red;
+}
+
+p {
+  color: black;
+}
+
+aside {
+  background-color: darkorange;
+  padding: 10px;
+  margin-left: 720px;
+  margin-top: -420px;
+  height: 400px;
+  width: 200px;
+  position: fixed;
+}
+
+div.logo{
+  margin-top: 25px;
+  background-image: url("../img/logo.jpg ");
+  background-size: 50%;
+  background-attachment: fixed;
+  border-radius: 8px;
+  z-index:-1;
+}
+
+div.logo:hover{
+  opacity: 1;
+  transform: translate(0,-25px);
+  -webkit-transform: translate(0,-25px);
+  -o-transform: translate(0,-25px);
+  -moz-transform: translate(0,-25px);
+}
+
+.logo {
+  border: solid 2px;
+  padding: 10px;
+}
+
+.logo:hover{
+  transition: 2s;
+}
+
+div.misstage{
+  margin-top: -38px;
+  z-index:10;
+}
+
+footer {
+  background-image: linear-gradient(red, orange, darkorange);
+  color: black;
+  padding: 10px;
+  margin-top: 10px;
+  border: 10px;
+  height: 100px;
+  width: 920px;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: black;
+}
+
+.imatge {
+  color: black;
+  background-color: white;
+  border: solid 1px black;
+  padding: 10px;
+}
+
+.imatge:hover{
+  border: solid 1px red;
+  box-shadow: 10px 10px;
+  transition: 2s;
+}
